@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                echo 'Testing cron... '
+                sh 'echo testing'
+                sh 'mkdir -p /mkdir/jenkins'
             }
         }
     }
