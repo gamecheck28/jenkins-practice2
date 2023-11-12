@@ -4,7 +4,7 @@ pipeline {
         stage('Example') {
             steps {
                 sh 'echo testing'
-                sh 'mkdir -p /mkdir/jenkins'
+                sh 'mkdir -p /tmp/jenkins'
             }
         }
     }
