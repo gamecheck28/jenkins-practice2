@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                sh 'echo testing'
+                sh 'echo testingnew'
                 sh 'mkdir -p /tmp/jenkins'
             }
         }
